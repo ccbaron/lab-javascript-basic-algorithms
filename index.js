@@ -18,8 +18,11 @@ else if (driver.length < navigator.length) {
     `[iteration 2]: It seems that the navigator has the longest name, it has ${navigator.length} characters.`
   );
 }
-
-
+else {
+    console.log(
+        `[iteration 2]: Wow, you both have equally long names, ${driver.length} characters!`
+    );
+ }
 
 
 // Iteration 3: Loops
