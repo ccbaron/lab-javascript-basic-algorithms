@@ -26,6 +26,15 @@ else {
 
 // Iteration 3: Loops
 
+//3.1
+
 let driverUpperCase = driver.toUpperCase();
 let driverSeparated = driverUpperCase.split("").join(" ");
+
 console.log(`[iteration 3]: ${driverSeparated}`);
+
+//3.2
+
+let navigatorReversed = navigator.split("").reverse ().join("");
+
+console.log(`[iteration 3]: ${navigatorReversed}`);
