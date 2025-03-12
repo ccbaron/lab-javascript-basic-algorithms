@@ -24,5 +24,8 @@ else {
     );
  }
 
-
 // Iteration 3: Loops
+
+let driverUpperCase = driver.toUpperCase();
+let driverSeparated = driverUpperCase.split("").join(" ");
+console.log(`[iteration 3]: ${driverSeparated}`);
